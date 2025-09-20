@@ -1,5 +1,4 @@
 import os
-import telebot
 import requests
 from telebot import apihelper
 
@@ -86,4 +85,5 @@ def main():
     send_file('ytb_id.txt', 'ID YouTube: ' + ('true' if ytb_id else 'false'))
 
 if __name__ == "__main__":
+
     main()
